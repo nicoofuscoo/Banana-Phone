@@ -1,0 +1,82 @@
+/* On smaller resolutions, hide the text for Large screens */
+@media only screen and (max-width: 833px) {
+  .largeScreen {display: none;}
+}
+
+/* On larger resolutions, hide the text for Small screens */
+@media only screen and (min-width: 833px) {
+  .smallScreen {display: none;}
+}
+
+
+
+.headings {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:100%;
+  height: 45px;
+}
+
+
+
+body{
+  margin:0;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.navigate {
+  list-style-type: none;
+
+}
+
+.navigate li {
+  position: relative;
+  letter-spacing: .01em;
+  font-weight: 10;
+  opacity: 0.8;
+  font-size: 12px;
+  line-height: 45px;
+  display: inline-flex;
+  color: #f5f5f7;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.navigate li:hover{
+
+  font-weight: 400;
+  opacity: 1;
+}
+
+.underhead{
+  background-color: #f5f5f7;
+  width: 100%;
+  padding:20px;
+  text-align: center;
+  color:#1d1d1f;
+  font-size: 14px;
+  
+}
+
+.underhead a{
+  text-decoration: none;
+}
+
+
+.large_showcase{
+  
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  
+
+}
+
+.large_showcase img{
+  min-height:700px; 
+  width:100%;
+}
+
